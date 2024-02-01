@@ -7,17 +7,16 @@ function App() {
         base: `"nav" "main"`,
         lg: `"nav nav" "aside main"`,
       }}
-      
     >
-      <GridItem bg = " red"area="nav">
-        <NavBar/>
+      <GridItem bg=" blue" area="nav">
+        <NavBar />
       </GridItem>
       <Show above="lg">
-        <GridItem bg = " green"area="aside" paddingX={5}>
+        <GridItem bg=" green" area="aside" paddingX={5}>
           aside
         </GridItem>
       </Show>
-      <GridItem bg = " yellow" area="main">
+      <GridItem bg="gold" area="main">
         main
       </GridItem>
     </Grid>
